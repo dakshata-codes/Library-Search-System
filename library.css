@@ -116,3 +116,21 @@ button:hover {
   color: #555;
   font-size: 14px;
 }
+
+
+#suggestionBox {
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+  font-size: 14px;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.suggestion-item:hover {
+  background-color: #eef2f7;
+}
+
